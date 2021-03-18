@@ -7,16 +7,14 @@ from selenium.webdriver.firefox.webdriver import WebDriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
 from colorama import Fore, Back, Style, init
 colorama.init()
-
-# from sign_In import signIN
-keyboard = Controller()
 
 #Must use path to your own geckodriver file
 geckodriver = r'C:\Geckodriver\geckodriver.exe'
  
+#This option allows you to run this script in headless mode which allows it to run with no browser being opened
+#To enable uncomment line 19
 options = webdriver.FirefoxOptions()
 # options.add_argument('-headless')
  
@@ -33,17 +31,18 @@ pay_page = r"https://www.bestbuy.com/checkout/r/payment"
 
 saved_parts = r"https://www.bestbuy.com/site/customer/lists/manage/saveditems"
 
+#timer to being counting how long the program takes to run
 begin = time.time()
 
+#first page that loads
 browser.get(login_page)
 
+#fill in your email and password creds "your email" "your pass"
 email_field = browser.find_element_by_id("fld-e")
 email_field.send_keys("Your Email Here")
 password_field = browser.find_element_by_id("fld-p1")
 password_field.send_keys("Your Password Here")
 print("account creds filled")
-
-
 
 #sign in button
 part2 = False
@@ -58,10 +57,12 @@ while not part2:
        
     except:
         part2 = True
+
+        #Directs user to one of the product options above
         browser.get(test_product_in_stock)
         time.sleep(5)
 
-
+#begins try except block to start checking if the add to cart button is available
 isComplete = False
 while not isComplete:
 
