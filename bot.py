@@ -11,8 +11,7 @@ from selenium.common.exceptions import NoSuchElementException
 from colorama import Fore, Back, Style, init
 colorama.init()
 
-# from sign_In import signIN
-keyboard = Controller()
+###
 
 #Must use path to your own geckodriver file
 geckodriver = r'C:\Geckodriver\geckodriver.exe'
