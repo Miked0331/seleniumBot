@@ -47,12 +47,15 @@ print("account creds filled")
 #sign in button
 part2 = False
 while not part2:
+    #After creds are filled finds Sign In Button and clicks it
     try:
         sign_in_button = WebDriverWait(browser, 10).until(
             EC.element_to_be_clickable((By.CLASS_NAME, "btn-secondary"))
         )
         sign_in_button.click()
-        time.sleep(15) 
+
+        #added sleep for stability
+        time.sleep(5) 
         print("sign in button clicked")
        
     except:
@@ -65,12 +68,13 @@ while not part2:
 #begins try except block to start checking if the add to cart button is available
 isComplete = False
 while not isComplete:
-
+    #Tries to find add to cart on specific product, if the condition is not met the page reloads until the button is found
     try:
         atcBtn = WebDriverWait(browser, 3).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, ".add-to-cart-button"))
         )
     except:
+        #Used coloram library so when user sees the color red the user knows nothing was clicked, if condition is met the print line turns green.
         print(Back.RED + "No Good")
         browser.refresh()
         continue
