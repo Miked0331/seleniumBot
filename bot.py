@@ -78,34 +78,19 @@ while not isComplete:
         print(Back.RED + "No Good")
         browser.refresh()
         continue
-     
 
-    try:
-         # add to cart
+    try: 
+        # Clicks add to cart button when found
         atcBtn.click()
         time.sleep(500)
         browser.get(out_of_stock_product)
         # browser.get(test_product_in_stock)
         print(Back.GREEN + Fore.WHITE + "added")
-        try:
-            atcBtn2 = WebDriverWait(browser, 3).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, ".add-to-cart-button"))
-            )
-        except:
-            print(Back.LIGHTMAGENTA_EX + "No Good")
-            browser.refresh()
-            continue
+          
 
-            #begins checkout process
-        atcBtn2.click()
-        print(Back.LIGHTYELLOW_EX + Fore.BLACK + "added")
+        #begins checkout process
         browser.get("https://www.bestbuy.com/cart")
-
-            # shippingBtn = WebDriverWait(browser,5).until(
-            #     EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/main/div/div[2]/div[1]/div/div[1]/div[1]/section[1]/div[4]/ul/li/section/div[2]/div[2]/form/div[2]/fieldset/div[2]/div[1]/div/div/div/input"))
-            # )
-            # shippingBtn.click()
-            
+           
         checkoutBtn = WebDriverWait(browser, 10).until(
             EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/main/div/div[2]/div[1]/div/div[1]/div[1]/section[2]/div/div/div[3]/div/div[1]/button"))
             )
@@ -125,7 +110,7 @@ while not isComplete:
 
     except:
         # make sure this link is the same as the link passed to driver.get() before looping
-        browser.get(saved_parts)
+        browser.get(test_product_in_stock)
         print("Error - restarting bot")
         continue
 
