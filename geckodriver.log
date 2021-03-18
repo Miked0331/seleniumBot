@@ -7,3 +7,171 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1616100841348	geckodriver	INFO	Listening on 127.0.0.1:52255
+1616100844426	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Main\\AppData\\Local\\Temp\\rust_mozprofileE3nNUZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616100846300	Marionette	INFO	Listening on port 52265
+1616100846493	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/location-persistence/dist/client/client-7695eb4aa504faeeeab87187ceb89d37.mjs, line 1: TypeError: this.initialStore is undefined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/breadcrumb/dist/client/client-16256b0917d4f21c4aa63dd9104644f9.mjs, line 1: TypeError: "exports" is read-only
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/location-persistence/dist/client/client-7695eb4aa504faeeeab87187ceb89d37.mjs, line 1: TypeError: this.initialStore is undefined
+JavaScript error: https://www.google.com/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1616100874816	Marionette	INFO	Stopped listening on port 52265
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616100961037	geckodriver	INFO	Listening on 127.0.0.1:52542
+1616100964125	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Main\\AppData\\Local\\Temp\\rust_mozprofilegZskjB"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616100966369	Marionette	INFO	Listening on port 52550
+1616100966800	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/location-persistence/dist/client/client-7695eb4aa504faeeeab87187ceb89d37.mjs, line 1: TypeError: this.initialStore is undefined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/breadcrumb/dist/client/client-16256b0917d4f21c4aa63dd9104644f9.mjs, line 1: TypeError: "exports" is read-only
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/location-persistence/dist/client/client-7695eb4aa504faeeeab87187ceb89d37.mjs, line 1: TypeError: this.initialStore is undefined
+JavaScript error: https://www.google.com/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1616101033792	Marionette	INFO	Stopped listening on port 52550
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616101035677	geckodriver	INFO	Listening on 127.0.0.1:52757
+1616101038761	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Main\\AppData\\Local\\Temp\\rust_mozprofileSWxkl9"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616101040416	Marionette	INFO	Listening on port 52766
+1616101040829	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/location-persistence/dist/client/client-7695eb4aa504faeeeab87187ceb89d37.mjs, line 1: TypeError: this.initialStore is undefined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/breadcrumb/dist/client/client-16256b0917d4f21c4aa63dd9104644f9.mjs, line 1: TypeError: "exports" is read-only
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/location-persistence/dist/client/client-7695eb4aa504faeeeab87187ceb89d37.mjs, line 1: TypeError: this.initialStore is undefined
+JavaScript error: https://www.google.com/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/breadcrumb/dist/client/client-16256b0917d4f21c4aa63dd9104644f9.mjs, line 1: TypeError: "exports" is read-only
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+1616101093506	Marionette	INFO	Stopped listening on port 52766
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616101267511	geckodriver	INFO	Listening on 127.0.0.1:52996
+1616101270608	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Main\\AppData\\Local\\Temp\\rust_mozprofilepZkKWh"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616101272503	Marionette	INFO	Listening on port 53004
+1616101272670	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/location-persistence/dist/client/client-7695eb4aa504faeeeab87187ceb89d37.mjs, line 1: TypeError: this.initialStore is undefined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/breadcrumb/dist/client/client-16256b0917d4f21c4aa63dd9104644f9.mjs, line 1: TypeError: "exports" is read-only
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/location-persistence/dist/client/client-7695eb4aa504faeeeab87187ceb89d37.mjs, line 1: TypeError: this.initialStore is undefined
+JavaScript error: https://www.google.com/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+JavaScript error: https://assets.bbystatic.com/shop/blue-assist/dist/client/client-df542263a8dfda4f14e707cc20b19b8c.js, line 1: Error: Loading chunk 1 failed.
+(error: https://www.bestbuy.com/~assets/bby/_com/shop/blue-assist/dist/client/1-df542263a8dfda4f14e707cc20b19b8c.js)
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 77: TypeError: o.a.error is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 28: ReferenceError: paulLog is not defined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 28: ReferenceError: paulLog is not defined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 28: ReferenceError: paulLog is not defined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 28: ReferenceError: paulLog is not defined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/breadcrumb/dist/client/client-16256b0917d4f21c4aa63dd9104644f9.mjs, line 1: TypeError: "exports" is read-only
+1616101309843	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: https://www.google.com/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/location-persistence/dist/client/client-7695eb4aa504faeeeab87187ceb89d37.mjs, line 1: TypeError: this.initialStore is undefined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/breadcrumb/dist/client/client-16256b0917d4f21c4aa63dd9104644f9.mjs, line 1: TypeError: "exports" is read-only
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 28: TypeError: c.default.error is not a function
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 28: TypeError: c.default.error is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 28: ReferenceError: paulLog is not defined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 28: ReferenceError: paulLog is not defined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 28: ReferenceError: paulLog is not defined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/cart.bundle-36032d7b83582f2e1c7a05a0bc9c4a32.js, line 28: ReferenceError: paulLog is not defined
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/breadcrumb/dist/client/client-16256b0917d4f21c4aa63dd9104644f9.mjs, line 1: TypeError: "exports" is read-only
+1616101331456	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/location-persistence/dist/client/client-7695eb4aa504faeeeab87187ceb89d37.mjs, line 1: Error: storeId required
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/breadcrumb/dist/client/client-16256b0917d4f21c4aa63dd9104644f9.mjs, line 1: TypeError: "exports" is read-only
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/breadcrumb/dist/client/client-16256b0917d4f21c4aa63dd9104644f9.mjs, line 1: TypeError: "exports" is read-only
+1616101353870	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: https://www.google.com/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616101364364	Marionette	INFO	Stopped listening on port 53004
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1616101367471	geckodriver	INFO	Listening on 127.0.0.1:53350
+1616101370536	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Main\\AppData\\Local\\Temp\\rust_mozprofileYMrHA2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616101372433	Marionette	INFO	Listening on port 53359
+1616101372627	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/location-persistence/dist/client/client-7695eb4aa504faeeeab87187ceb89d37.mjs, line 1: TypeError: this.initialStore is undefined
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/breadcrumb/dist/client/client-16256b0917d4f21c4aa63dd9104644f9.mjs, line 1: TypeError: "exports" is read-only
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/location-persistence/dist/client/client-7695eb4aa504faeeeab87187ceb89d37.mjs, line 1: TypeError: this.initialStore is undefined
+JavaScript error: https://www.google.com/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/breadcrumb/dist/client/client-16256b0917d4f21c4aa63dd9104644f9.mjs, line 1: TypeError: "exports" is read-only
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/breadcrumb/dist/client/client-16256b0917d4f21c4aa63dd9104644f9.mjs, line 1: TypeError: "exports" is read-only
+1616101420251	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:231:19
+TimedPromise@chrome://marionette/content/sync.js:216:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:433:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/location-persistence/dist/client/client-7695eb4aa504faeeeab87187ceb89d37.mjs, line 1: TypeError: this.initialStore is undefined
+JavaScript error: https://www.google.com/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/breadcrumb/dist/client/client-16256b0917d4f21c4aa63dd9104644f9.mjs, line 1: TypeError: "exports" is read-only
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/breadcrumb/dist/client/client-16256b0917d4f21c4aa63dd9104644f9.mjs, line 1: TypeError: "exports" is read-only
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: https://www.bestbuy.com/~assets/bby/_com/shop/location-persistence/dist/client/client-7695eb4aa504faeeeab87187ceb89d37.mjs, line 1: TypeError: this.initialStore is undefined
+JavaScript error: https://www.google.com/adsense/search/async-ads.js, line 39: uncaught exception: google.ads.search.Ads: Missing option 'query'.
+1616101459077	Marionette	INFO	Stopped listening on port 53359
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

@@ -22,7 +22,7 @@ browser = webdriver.Firefox(executable_path=geckodriver, options=options)
  
 login_page = r"https://www.bestbuy.com/signin"
                 
-test_product_in_stock = r"https://www.bestbuy.com/site/nvidia-geforce-rtx-3060-ti-8gb-gddr6-pci-express-4-0-graphics-card-steel-and-black/6439402.p?skuId=6439402"
+test_product_in_stock = r"https://www.bestbuy.com/site/google-fi-sim-card-kit/6325631.p?skuId=6325631"
 out_of_stock_product = r"https://www.bestbuy.com/site/evga-nvidia-geforce-rtx-3060-ti-ftw3-gaming-8gb-gddr6-pci-express-4-0-graphics-card/6444444.p?skuId=6444444"
 
 store_page = r"https://www.bestbuy.com/site/store-locator/"
@@ -39,9 +39,9 @@ browser.get(login_page)
 
 #fill in your email and password creds "your email" "your pass"
 email_field = browser.find_element_by_id("fld-e")
-email_field.send_keys("Your Email Here")
+email_field.send_keys("EMAIL HERE")
 password_field = browser.find_element_by_id("fld-p1")
-password_field.send_keys("Your Password Here")
+password_field.send_keys("PASSWORD HERE")
 print("account creds filled")
 
 #sign in button
@@ -82,12 +82,11 @@ while not isComplete:
     try: 
         # Clicks add to cart button when found
         atcBtn.click()
-        time.sleep(500)
+        time.sleep(2)
         browser.get(out_of_stock_product)
         # browser.get(test_product_in_stock)
         print(Back.GREEN + Fore.WHITE + "added")
           
-
         #begins checkout process
         browser.get("https://www.bestbuy.com/cart")
            
@@ -96,12 +95,28 @@ while not isComplete:
             )
         checkoutBtn.click()
 
-        time.sleep(3)
-
+        #directs user to payment page
         browser.get(pay_page)
+
+        # fill in card cvv assuming user has credit card already connected to account
+        cvvField = WebDriverWait(browser, 10).until(
+            EC.presence_of_element_located((By.ID, "credit-card-cvv"))
+        )
+        cvvField.send_keys("CVV")       
+
+         # place order
+        placeOrderBtn = WebDriverWait(browser, 10).until(
+            EC.presence_of_element_located((By.XPATH, "/html/body/div[1]/div[2]/div/div[2]/div[1]/div[1]/main/div[2]/div[2]/div/div[4]/div[3]/div/button"))
+        )
+        #place order button is commented out for safety reasons, uncomment if user is ready to go through whole process.
+        #placeOrderBtn.click()
+        print("order is complete")
+        isComplete = True
+
+        #delete comment on next line with your own path to save a screen shot of the page after item is bought!
         browser.save_screenshot('C:\\Users\\Main\\Downloads\\Headless_test.png')
-            # total time taken 
-            # select = Select(browser.find_element_by_css_selector('#consolidatedAddresses\.ui_address_2\.state'))
+        
+        # total time taken 
         end = time.time() 
         print(f"Total runtime of the program is {end - begin}") 
         time.sleep(12)
@@ -114,7 +129,5 @@ while not isComplete:
         print("Error - restarting bot")
         continue
 
-  
-#browser.save_screenshot('C:\\Users\\Main\\Downloads\\headless_firefox_test.png')
  
 browser.quit()
